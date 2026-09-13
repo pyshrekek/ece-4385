@@ -1,0 +1,146 @@
+# ---------------------------------------------------------------------------
+# .gitignore for Cadence Virtuoso / custom IC design projects
+#
+# Keep: cds.lib, lib.defs, .cdsinit, .cdsenv, display.drf, cdsinfo.tag,
+#       data.dm, master.tag, and the OpenAccess (*.oa) design data itself.
+# Ignore: locks, logs, netlists, simulation output, and verification runs.
+# ---------------------------------------------------------------------------
+
+# --- Lock files -------------------------------------------------------------
+*.cdslck
+.cdslck*
+*.oa.cdslck
+.oalocklog
+.lock*
+
+# --- Cadence logs, crash dumps, backups ------------------------------------
+CDS.log
+CDS.log.*
+*.log
+libManager*.log
+hierEditor*.log
+panic*.il
+panic.*
+core
+core.*
+*.bak
+*~
+.nfs*
+
+# --- Virtuoso session / runtime junk ---------------------------------------
+.cadence/
+.cdsplotinit.bak
+*.icbf
+*.ivpad
+.checkpoint/
+.oa*.tmp
+*.tmp
+*.temp
+
+# --- Netlisting / simulation (Spectre, ADE, AMS, HSPICE) -------------------
+simulation/
+si.env
+si.inp
+si.out
+runSimulation
+netlist
+netlist.*
+input.scs
+*.raw/
+psf/
+*.psfxl
+*.pak
+*.ahdlSimDB/
+.ahdlcmi/
+*.ic
+*.dc
+*.tran
+*.ac
+*.noise
+spectre.out
+spectre.ahdlSimDB/
+*.fsdb
+*.vcd
+*.wdb
+*.trn
+*.dsn
+*.shm/
+
+# ADE XL / Maestro results (regenerable, and very large)
+**/adexl/results/
+**/maestro/results/
+**/.adexl_*
+
+# --- Physical verification --------------------------------------------------
+# Calibre
+svdb/
+*.rve
+*.db
+calibre.*
+*_calibre*
+*.drc.results
+*.drc.summary
+*.lvs.report
+*.lvs.report.*
+*.ant.results
+*.antenna.*
+transcript
+
+# Assura
+*.run/
+assura*.log
+*.err
+*.sum
+
+# PVS / Quantus / QRC
+pvsrun*/
+pvs_*
+*.PVS*
+qrc/
+*.qrc*
+extracted/
+
+# --- Digital flow (if the repo also holds Genus/Innovus/Xcelium) ------------
+INCA_libs/
+xcelium.d/
+irun.*
+xrun.*
+ncsim*
+.simvision/
+waves.shm/
+fe_*/
+genus.cmd*
+genus.log*
+innovus.cmd*
+innovus.log*
+runObjDir*/
+*.cmd.gz
+
+# --- Large generated artifacts ----------------------------------------------
+# Uncomment if you regenerate these rather than release them from the repo.
+# *.gds
+# *.gds.gz
+# *.oasis
+# *.cdl
+# *.spi
+# *.lef
+# *.def
+
+# --- Editor / OS -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Explicitly keep project configuration ----------------------------------
+!cds.lib
+!lib.defs
+!.cdsinit
+!.cdsenv
+!.simrc
+!display.drf
+!cdsinfo.tag
+!data.dm
+!master.tag
