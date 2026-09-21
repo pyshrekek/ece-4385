@@ -37,6 +37,34 @@
 				<callback>_parSetupDBExtensionCB</callback>
 				<iconvalue></iconvalue>
 				<icontype></icontype>
+				<active>
+					<mode>Extracted</mode>
+					<parameters>
+						<device>
+							<enabled>0</enabled>
+						</device>
+						<parasitic>
+							<enabled>0</enabled>
+						</parasitic>
+					</parameters>
+				</active>
+				<modes>
+					<mode>No Parasitics</mode>
+					<mode>Schematic Estimates
+						<schematic>
+							<lib>hw1</lib>
+							<cell>inv</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>hw1</lib>
+							<cell>inv</cell>
+							<view>estimated</view>
+						</parasitic>
+					</mode>
+					<mode>Layout</mode>
+					<mode>Extracted</mode>
+				</modes>
 			</extension>
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
@@ -85,6 +113,10 @@
 			<rdboption>default</rdboption>
 			<psfoption>default</psfoption>
 		</saveoptions>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
+		<distributeoptions></distributeoptions>
 	</active>
 	<history>History
 	</history>
