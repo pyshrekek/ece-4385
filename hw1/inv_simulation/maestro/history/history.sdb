@@ -13,17 +13,6 @@
 			<simdir>$AXL_PROJECT_DIR/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 			<historyPsfSize>Not Computed</historyPsfSize>
 		</historyentry>
-		<historyentry assemblerOrExplorer="explorer" historyDataVersion="7" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Sep 21 01:36:42 2026</timestamp>
-			<uuid>{8d959094-27ae-49f8-8c6b-9eda4da3e4ee}</uuid>
-			<locked>0</locked>
-			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/xuh16/ece4385-assignments/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<psfdir>/home/xuh16/simulation/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
-			<historyPsfSize>Not Computed</historyPsfSize>
-		</historyentry>
 		<historyentry assemblerOrExplorer="assembler" historyDataVersion="7" roOrView="view" runningOrFinished="finished">Interactive.1
 			<timestamp>Sep 21 01:49:09 2026</timestamp>
 			<uuid>{f46e7b71-1e8e-4bc4-996d-d59afc89bbef}</uuid>
@@ -82,6 +71,17 @@
 		<historyentry assemblerOrExplorer="assembler" historyDataVersion="7" roOrView="view" runningOrFinished="finished">Interactive.6
 			<timestamp>Sep 21 02:13:29 2026</timestamp>
 			<uuid>{3ca778dc-481b-4d19-a139-27f23c6b42b2}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/xuh16/ece4385-assignments/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<psfdir>/home/xuh16/simulation/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<historyPsfSize>Not Computed</historyPsfSize>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" historyDataVersion="7" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Sep 21 21:34:23 2026</timestamp>
+			<uuid>{9255e0be-3a4c-4db8-b511-24f73b705d3c}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/xuh16/ece4385-assignments/hw1/inv_simulation/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

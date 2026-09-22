@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" historyDataVersion="7" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Sep 21 03:24:15 2026</timestamp>
-			<uuid>{750a451a-e4a2-42d7-9014-057804311f47}</uuid>
+			<timestamp>Sep 21 21:31:16 2026</timestamp>
+			<uuid>{690d5474-d44c-4d81-9ec8-9159c6c8720d}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/xuh16/ece4385-assignments/hw1/nor_simulation/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
