@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      xuh16
+HostName                       R-2TEJMJ5SAAHGP.vuds.vanderbilt.edu
+ProcessIdentifier              97617
+ProcessCreationTime_UTC        1791401289
+ProcessCreationTime_Readable   Wed Oct  7 14:28:09 2026 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/xuh16/ece4385-assignments/hw2/half_adder/symbol/symbol.oa.cdslck
+TimeEditLocked                 Wed Oct  7 14:36:22 2026 CDT
